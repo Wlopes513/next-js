@@ -4,9 +4,9 @@ export default class Client {
    public _age: number
 
     constructor(name: string, age: number, id: string = null) {
-        this._id = name
-        this._age = age
         this._id = id
+        this._name = name
+        this._age = age
     }
 
     static empty() {
